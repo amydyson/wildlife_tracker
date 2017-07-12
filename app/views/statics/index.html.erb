@@ -1,13 +1,44 @@
-<h1>Home Page</h1>
-<a href="animals#create">See an animal? Add it to our DB if it's not there already</a>
-<br>
-<a href="/sightings/new">See an Animal? Record the sighting</a>
 
-<br>
-<form action="/sightings" method="get">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Oswald|Raleway" rel="stylesheet">
+</head>
+
+
+<div class="container">
+
+  <h1>Wildlife Tracker</h1>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <a href="/sightings/new">Report a Sighting</a>
+    </div>
+
+      <div class="col-sm-6">
+        <a href="animals#create">Add an animal</a>
+      </div>
+   </div>
+
+   <div class="row">
+     <div class="col-sm-6">
+     <%= image_tag "binoculars.png", class: "homepage", id: "binoculars"%>
+     </div>
+
+       <div class="col-sm-6">
+         <%= image_tag "fox.png", class: "homepage", id: "fox" %>
+       </div>
+    </div>
+
+
+</div>
+
+<!-- <img src="images/fox.png" alt="fox" style="width:304px;height:228px;"> -->
+
+
+<!-- <form action="/sightings" method="get">
   <label for="start_date">Start date</label>
   <input id="start_date" name="start_date" type="date">
   <label for="end_date">End date</label>
   <input id="end_date" name="end_date" type="date">
   <button>Run report</button>
-</form>
+</form> -->

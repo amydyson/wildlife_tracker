@@ -1,3 +1,54 @@
 // Place all the styles related to the statics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+//
+// background-image: url("bear.jpg");
+// background-repeat: no-repeat;
+background-color: 	#c2cea7;
+background-size: cover;
+}
+
+.col-sm-6 {
+text-align: center;
+
+}
+
+#fox, #binoculars {
+  height: 300px;
+
+}
+
+a{
+   margin: 50px;
+    font-size: 24px;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:none;
+    color: white;
+    background-color: #88a78e;
+
+}
+
+
+h1 {
+font-family: 'Raleway', sans-serif;
+  text-align: center;
+font-size: 4em;
+font-weight: 500;
+margin-bottom: 40px;
+}
+// or
+// //
+// background-image: url(/assets/background.jpg);
+
+
+//
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Oswald', sans-serif;
