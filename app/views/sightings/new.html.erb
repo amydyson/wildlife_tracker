@@ -1,5 +1,41 @@
-<h1>New Sighting</h1>
+<body id = "new-sighting">
 
-<%= render 'form', sighting: @sighting %>
+<div class="container ">
 
-<%= link_to 'Back', sightings_path %>
+<h1>Sightings</h1>
+
+<div class="row">
+
+    <div class="col-sm-6 new-sighting">
+        <h2>Report a sighting</h2>
+    <%= render 'form', sighting: @sighting %>
+    </div>
+
+    <div class="col-sm-6 new-sighting">
+        <h2>See sightings</h2>
+        <form action="/sightings" method="get">
+            <label for="start_date">Start date</label>
+            <input id="start_date" name="start_date" type="date" required>
+            <label for="end_date">End date</label>
+            <input id="end_date" name="end_date" type="date" required>
+            <br><br>
+            <button>See sightings</button>
+        </form>
+        <%= image_tag "bird.png", class: "animals", id: "bird"%>
+
+    </div>
+
+</div>
+
+<div class="row link-at-bottom">
+    <a href="/">Home</a>
+    <a href="/animals/new">Add an animal</a>
+
+</div>
+
+
+</div>
+
+
+
+</body>
