@@ -13,3 +13,69 @@
  *= require_tree .
  *= require_self
  */
+
+
+ body {
+
+
+ background-color: 	#c2cea7;
+ background-size: cover;
+ }
+
+ #new-sighting {
+
+ background-color: #9FB6CD	;
+ background-size: cover;
+
+ }
+
+ .link-at-bottom {
+ text-align: center;
+ }
+
+
+
+
+ .statics-align {
+ text-align: center;
+
+ }
+
+ .spyglass, .animals, #fox, #binoculars {
+   height: 300px;
+
+ }
+
+ a{
+    margin: 50px;
+     font-size: 24px;
+     text-decoration:none;
+ }
+
+ a:hover{
+     text-decoration:none;
+     color: white;
+     background-color: #88a78e;
+
+ }
+
+
+ h1 {
+ font-family: 'Raleway', sans-serif;
+   text-align: center;
+ font-size: 4em;
+ font-weight: 500;
+ margin-bottom: 40px;
+ }
+ // or
+ // //
+ // background-image: url(/assets/background.jpg);
+
+
+ //
+ // font-family: 'Roboto', sans-serif;
+ // font-family: 'Open Sans', sans-serif;
+ // font-family: 'Raleway', sans-serif;
+ // font-family: 'Lato', sans-serif;
+ // font-family: 'Montserrat', sans-serif;
+ // font-family: 'Oswald', sans-serif;

@@ -4,14 +4,14 @@ class SightingsController < ApplicationController
   # GET /sightings
   # GET /sightings.json
   def index
-
-    if params[:start_date].empty? || params[:end_date].empty?
-      @sightings = Sighting.all
-
-    else
-      @sightings = Sighting.where(date: params[:start_date]..params[:end_date])
-      render('sightings/index.html.erb')
-    end
+    @sightings = Sighting.all
+    # if params[:start_date].empty? || params[:end_date].empty?
+    #
+    #
+    # else
+      # @sightings = Sighting.where(date: params[:start_date]..params[:end_date])
+      # render('sightings/index.html.erb')
+    # end
   end
 
   # GET /sightings/1
